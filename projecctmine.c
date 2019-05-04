@@ -1,3 +1,6 @@
+//Pawan Acharya 
+//BCT,Kantipur Engineering college,Dhapakhel lalitpur
+
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
@@ -16,7 +19,7 @@ void search();
 
 int main()
 {
-	char choice;
+char choice;
 printf("welcome to telephone directory\n");
 printf("Here you can save contacts,load them,search them,modify them or delete them.\n");
 printf("\nYou have following options\n");
@@ -54,6 +57,7 @@ switch(choice)
 return 0;
 }
 }
+
 void add()
 {
 	FILE *f;
@@ -185,6 +189,6 @@ void search()
 	if(flag==1)
 	printf("Record not found.\n");
 	fclose(f);
-}
+	}
+	
 
- 
